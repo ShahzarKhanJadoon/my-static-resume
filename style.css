@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+.resume {
+  background-color: #333;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+}
+
+section {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #444;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+#profile-pic img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#personal-info p {
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .resume {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  ul li {
+    font-size: 0.9em;
+  }
+
+  button {
+    font-size: 1em;
+  }
+
+  #profile-pic img {
+    width: 100px;
+    height: 100px;
+  }
+}
